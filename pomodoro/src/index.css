@@ -1,0 +1,68 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+html, body {
+  
+  margin: 0;
+  min-height: 100vh;
+}
+
+body{
+  background: linear-gradient(to right, #5619db, #E98B50, #BC4F4F);
+  display: flex;
+  flex-direction: column;
+}
+
+h1, p, button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+  border: 1px solid rgb(172, 19, 19);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 80px;
+  flex: 1;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.navButton{
+  background: none;
+  border: none;
+  color: rgba(240, 248, 255, 0.491);
+
+}
+
+
+.boxContador{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+}
+
+.boxContador h1 {
+
+  font-size: 140px;
+  color: beige;
+  margin: 0%;
+}
+
+.progressBar{
+  width: 20%;
+}

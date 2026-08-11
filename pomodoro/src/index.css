@@ -11,6 +11,23 @@ html, body {
   min-height: 100vh;
 }
 
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 400px;
+  margin-top: 30px;
+}
+
+
+.boxleft{
+  gap: 80px;
+  padding-top: 60px;
+}
+.boxright{
+  display: flex;
+  align-items: center;
+}
 .divtitulo{
   display: flex;
   flex-direction: column;
@@ -21,6 +38,8 @@ html, body {
 .divtitulo h1{
   
   color: beige;
+  font-size: 40px;
+  padding-left: 20px;
 }
 
 .divtitulo p{
@@ -40,7 +59,6 @@ h1, p, button{
 }
 
 main{
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,15 +82,14 @@ footer{
 
 
 .boxContador{
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-right: 50px;
 }
 
 .boxBotones{
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   gap: 2px;
@@ -86,7 +103,6 @@ footer{
 }
 
 .boxContador h1 {
-  border: 1px solid black;
   font-size: 140px;
   color: beige;
   margin: 0%;
@@ -105,5 +121,17 @@ footer{
 .corazon{
   width: 240px;
   height: 240px;
+  image-rendering: pixelated;
+}
+
+.background {
+  width: 320px;
+  height: 180px;
+
+  background-image: url('./assets/background.png');
+  background-size: 320px 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+
   image-rendering: pixelated;
 }

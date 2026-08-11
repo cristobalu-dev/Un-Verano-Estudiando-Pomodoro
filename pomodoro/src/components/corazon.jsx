@@ -1,6 +1,6 @@
 import { useState,useEffect} from 'react'
 
-import corazon from '../assets/corazon.png'
+import corazon from '../assets/corazon1.png'
 import corazon1 from '../assets/corazon2.png'
 
 

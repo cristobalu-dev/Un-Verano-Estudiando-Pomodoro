@@ -115,7 +115,6 @@ footer{
 .boxDibujo{
   display: flex;
   justify-content: left;
-  padding-left: 120px;
 }
 
 .corazon{
@@ -134,4 +133,11 @@ footer{
   background-position: center;
 
   image-rendering: pixelated;
+}
+
+.logo{
+  image-rendering: pixelated;
+  width: 130%;
+  height: 130%;
+
 }

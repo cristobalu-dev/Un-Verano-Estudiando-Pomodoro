@@ -15,7 +15,7 @@ function App() {
           <div className='boxleft'>
             <div className='divtitulo'>
               <img src={logo} className='logo' />
-              <p>v.0.5 | por Cristóbal Ulloa</p>
+              <p>v.0.5</p>
             </div>
             
             <div className='boxDibujo'>
